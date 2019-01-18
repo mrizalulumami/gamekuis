@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal8">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Lambang pramuka dilambangkan dengan gambar?"
+                android:textSize="23dp"
+                android:textColor="#e71616"/>
+            <Button
+                android:id="@+id/klpswit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(a).Kelapa Sawit"/>
+            <Button
+                android:id="@+id/tnsklp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(b).tunas kelapa"/>
+            <Button
+                android:id="@+id/grd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(c).garuda"/>
+            <Button
+                android:id="@+id/bbk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(d).bebek berenang"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:textColor="#0a21ed"
+                android:text="Score"/>
+            <TextView
+                android:id="@+id/hasl8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="0"
+                android:textSize="23dp"
+                android:background="#38ff06"
+                android:gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

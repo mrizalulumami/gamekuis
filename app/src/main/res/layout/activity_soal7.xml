@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal7">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.Asian Games 2018 dilaksanankan di negara Indonesia yaitu di kota?"
+                android:textSize="23dp"
+                android:textColor="#e71616"/>
+            <Button
+                android:id="@+id/pcdo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(a).Pocado dan Georgopol"/>
+            <Button
+                android:id="@+id/jakrtplmbg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(b).jakarta dan palembang"/>
+            <Button
+                android:id="@+id/jkrtbndg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(c).jakarta dan bandung"/>
+            <Button
+                android:id="@+id/srby"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(d).Surabaya dan Denpasar"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:textColor="#0a21ed"
+                android:text="Score"/>
+            <TextView
+                android:id="@+id/hasl7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="0"
+                android:textSize="23dp"
+                android:background="#38ff06"
+                android:gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal5">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Agama  Budha berasal dari negara?"
+                android:textSize="23dp"
+                android:textColor="#e71616"/>
+            <Button
+                android:id="@+id/arab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(a).arab saudi"/>
+            <Button
+                android:id="@+id/india"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(b).india"/>
+            <Button
+                android:id="@+id/itali"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(c).italia"/>
+            <Button
+                android:id="@+id/mark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(d).maroko"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:textColor="#0a21ed"
+                android:text="Score"/>
+            <TextView
+                android:id="@+id/hasl5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="0"
+                android:textSize="23dp"
+                android:background="#38ff06"
+                android:gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
